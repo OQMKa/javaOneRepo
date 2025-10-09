@@ -13,6 +13,14 @@ public class CollectionPractise {
         System.out.println("contains the passed object or not? = "+ l1.contains(2));
         System.out.println("gives hascode of given list = "+l1.hashCode());
         System.out.println("getLast() element = " + l1.getLast());
+        System.out.println("------------------------------------------------------------------------------------------------------");
+
+
+        int[] a = {2,4,5,6,3,4,2,4,5,634,3};
+        // System.out.println(a.toString());
+        System.out.println(a.length);
+        System.out.println("Arrays not so many methods ENDS HERE ---------------------------------------------------------------------------------");
+        
         
     }
 }
