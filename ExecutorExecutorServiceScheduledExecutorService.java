@@ -58,13 +58,6 @@ public class ExecutorExecutorServiceScheduledExecutorService{
         ScheduledExecutorService exe3 = Executors.newScheduledThreadPool(2);
         exe3.schedule(()->System.out.println("3. SceduledExecutor Interface = scheduledExecutorService - scheduler() method"), 3,TimeUnit.SECONDS);
         exe3.shutdown();
-
-
-
-
-
-
-
     }
         
 }
